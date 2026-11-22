@@ -58,7 +58,7 @@ npm run build
 npm run lint
 ```
 
-Webpack writes the production site to `dist/`. The build output is excluded from Git. Hosting is not configured yet; deploy the contents of `dist/` when the site is ready to go live.
+Webpack writes the production site to `dist/`, and `vercel.json` tells Vercel to serve that build output. The generated folder is excluded from Git.
 
 ## Contact form setup
 
